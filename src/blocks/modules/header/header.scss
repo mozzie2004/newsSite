@@ -1,0 +1,20 @@
+.header {
+  height: 78px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $main-color;
+  position: fixed;
+  left: 0;
+  top: 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+}
